@@ -1,14 +1,11 @@
-def harga_bayaran(jenisbuku,kuantiti):
-    if jenisbuku == 1:
-        potongan_harga = (6.00 * 0.1) * kuantiti
-        harga = (6.00 * kuantiti) - potongan_harga
-    elif jenisbuku == 2:
-        potongan_harga = (7.50 * 0.08) * kuantiti
-        harga = (7.50 * kuantiti) - potongan_harga
-    else:
-        potongan_harga = (8.90 * 0.05) * kuantiti
-        harga = (8.90 * kuantiti) - potongan_harga
-    return (potongan_harga,harga)
+def harga_bayaran(.........):
+    
+
+
+
+
+
+    return 
 
 def main():
     print("Senarai belian buku:")

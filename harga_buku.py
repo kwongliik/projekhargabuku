@@ -20,7 +20,7 @@ def main():
         if jenisbuku > 3 or jenisbuku < 1:
             print("Sila masukkan nombor 1 hingga 3 sahaja.")
         else:
-            break 
+            break # exit when no error 
     kuantiti=int(input("Masukkan kuantiti buku yang dibeli:"))
     potongan_harga,harga_total = harga_bayaran(jenisbuku,kuantiti)
     print("Potongan harga yang diperoleh ialah RM", round(potongan_harga,2))
